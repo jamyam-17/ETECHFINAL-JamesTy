@@ -1,0 +1,13 @@
+.carousel-inner img
+{
+  
+    filter: brightness(40%);
+    height: 6in;
+
+
+}
+
+.carousel-caption h1
+{
+    font-size: 10rem;
+}
