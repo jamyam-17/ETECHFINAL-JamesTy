@@ -19,6 +19,37 @@
   </head>
 <body>
 
+    <div class= "mdloverlay" onclick="closeModal()">
+        <div class = "signupform">
+            <span> &times; </span>
+            <form action="">
+    
+                <div>
+                <label for="Username">Username</label>
+                <input type = "text"/>
+                </div>
+    
+                <div>
+                <label for="Email">Email</label>
+                <input type = "text"/>
+                </div>
+    
+                <div>
+                    <label for="Contact No.">Contact No.</label>
+                    <input type = "text"/>
+                    </div>
+    
+                <div>
+                <label for="Password">Password</label>
+                <input type = "password"/>
+                </div>
+    
+                <button>Sign Up</button>
+    
+            </form>
+        </div>
+    </div>
+
   <!-- START OF NAVBAR CODE -->
 <div class = "navpart">
   <div class = "logo">
@@ -55,9 +86,9 @@
                     <li>Araling Panlipunan</li>
                     <li>MAPEH</li>
                   </ul>
-                  <a class = "login" href = "#" data-toggle = "modal" data-target=#myModal><button type="button" class="btn btn-outline-success btn-lg" >Sign me Up</button></a>
+                  <button type="button" class="btn-login btn-outline-success btn-lg" onclick="showModal()">Sign me Up</button>
                   </div>
-                  <!-- Content for Section 2 -->
+
                 </div>
             </div>
             <div class="col-md-3">
@@ -73,7 +104,7 @@
                         <li>Araling Panlipunan</li>
                         <li>MAPEH</li>
                       </ul>
-                      <button type="button" class="btn btn-success btn-lg btn-block" >Sign me Up</button>
+                      <button type="button" class="btn-login btn-success btn-lg btn-block" onclick="showModal()">Sign me Up</button>
                       </div>
                 </div>
             </div>
@@ -90,7 +121,7 @@
                     <li>Research</li>
                     <li>Statistics and Probability</li>
                   </ul>
-                  <button type="button" class="btn btn-success btn-lg" >Sign me Up</button>
+                  <button type="button" class="btn-login btn-success btn-lg"onclick="showModal()" >Sign me Up</button>
                   </div>
                   <!-- Content for Section 2 -->
               </div>
@@ -108,12 +139,31 @@
                     <li>Humanities</li>
                     <li>Business</li>
                   </ul>
-                  <button type="button" class="btn btn-success btn-lg" >Sign me Up</button>
+                  <button type="button" class="btn-login btn-success btn-lg" onclick="showModal()">Sign me Up</button>
                   </div>
                   
                 </div>
           </div>
         </div>
       </div>
+      
+</body>
+<script>
+    function showModal(){
+        document.querySelector('.mdloverlay').classList.add('showmdloverlay');
+        document.querySelector('.signupform').classList.add('showsignupform');
+    }
 
-</div>
+    function closeModal(){
+        document.querySelector('.mdloverlay').classList.remove('showmdloverlay');
+        document.querySelector('.signupform').classList.remove('showsignupform');
+    }
+
+    var btnlogin = document.querySelector(".btn-login");
+    btnlogin.addEventListener("click",showModal)
+
+    var c= document.querySelector("span");
+    c.addEventListener("click",closeModal);
+
+</script>
+</html>

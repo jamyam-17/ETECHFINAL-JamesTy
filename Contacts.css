@@ -108,17 +108,17 @@ padding: 30px;
     font-weight: 600;
 }
 
-.mdloverlay{
+.overlay{
     height: 100%;
     width: 100%;
     background: rgba(255, 255, 255, 0.5);
     position: fixed;
-    z-index: -1;
+    z-index: 1;
     opacity: 0;
     transition: 1s;
 
 }
-.showmdloverlay{
+.showoverlay{
     opacity: 1;
     z-index: 1;
 }
@@ -129,13 +129,12 @@ padding: 30px;
     position: absolute;
     left: 50%;
     top: -50%;
-    z-index: 9;
     transition: 2s;
     transform: translate(-50%,50%);
     box-shadow: 0px 0px 10px 3px #193714;
 }
 .showsignupform{
-    top: 0%;
+    top: 50%;
 }
 
 .signupform input{
