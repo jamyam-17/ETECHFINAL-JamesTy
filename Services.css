@@ -1,0 +1,111 @@
+.navpart {
+    background-color:#0C170A;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-shadow: 3px 3px 9px 1px #193714;
+    
+}
+.logo {
+ font-size: 2rem;
+ font-weight: 600;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logo img{
+    height: 7rem;
+    margin-left: 2rem;
+}
+
+
+.navpart ul {
+    list-style: none;
+
+   
+}
+
+.navpart ul li {
+padding: 30px;
+   display: inline-block;
+   font-size: 18px;
+   font-weight:700;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   margin-top: 10px;
+
+}
+
+.navpart a {
+    text-decoration: none;
+    color: aliceblue;
+ }
+
+ .navpart a:hover {
+    opacity: 80%;
+    padding: 25px;
+    height: 20px;
+    width: 25%;
+    margin: -95px 0 ;
+    border-radius: 40px;
+    background: #FFFFFF;
+    transition: .5s ease-in-out;
+    color: #0C170A;
+ }
+
+ .pricingtitle h1{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight:1000;
+    color: #0C170A;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+ }
+
+ .section .pricing {
+    border: #686868 solid 1.5px;
+    
+ }
+
+ .section h3{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    background-color: #778873;
+    border:#686868 solid 1px;
+    border-radius: 6%;
+    color: #FFFFFF
+    
+    
+ }
+
+ .section .Info {
+    border:#c0c0c0 solid 1px;
+    border-radius: 6%;
+    padding-left: 0px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    font-weight: 600;
+    color: #0C170A;  
+ }
+ .section .Info ul{
+    list-style: none ;
+ }
+
+ .section .Info ul li{
+    padding: 5px;
+ }
+
+ .section h4{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #193714;
+ }
+
+.section button {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
