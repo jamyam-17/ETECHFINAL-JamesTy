@@ -1,4 +1,6 @@
-
+*{
+   max-width: 100%;
+}
 .navpart {
     background-color:#0C170A;
     display: flex;
@@ -54,14 +56,20 @@ padding: 30px;
  }
 .aboutus  h1{
    font-family: 'Bitter', serif;
-}
-.aboutus p {
-   font-family: 'Quicksand', sans-serif;
+   margin: 30px 0px 20px 0px;
 }
 
+.aboutus  p{
+   font-family: 'Quicksand', sans-serif;
+   margin: 30px 0px 20px 0px;
+   text-align: justify;
+}
 
  .section img {
-   margin: 0px;
+   margin: 30px 0px 30px 20px;
+   box-shadow: #193714 0px 0px 30px 2px;
+   border-radius: 100%;
+
  }
  
 .Ourbranches h1{
@@ -76,6 +84,7 @@ padding: 30px;
  .container2{
    background-color: #263f21;
    padding-bottom: 10px;
+   overflow: hidden;
  }
 
  .section2 h2 {
@@ -85,9 +94,9 @@ padding: 30px;
  .section2 img {
    object-fit: cover;
    height: 300px;
-   width: 100%;
-   padding: 15px;
+   padding: 5px;
    box-shadow: #0C170A 0px 0px 10px 3px;
+
  }
 
  .section2 h2 { 
@@ -117,14 +126,31 @@ padding: 30px;
    background-color: #193714; 
    color: #fff; 
 }
-
+.Goals{
+   margin: 0px 85px;
+}
 .Goals  h1{
    font-family: 'Bitter', serif;
+   margin: 20px 0px 20px 0px;
+}
+
+.Goals p{
+   font-family: 'Quicksand', sans-serif;
+   text-align: justify;
+ 
 }
 
 h2 {
    font-family: 'Bitter', serif;
 }
-p {
+.progp p {
    font-family: 'Quicksand', sans-serif;
+   text-align: center;
+   font-size: 30px;
+
+}
+
+.progress-bar {
+   font-family: 'Quicksand', sans-serif;
+   font-size: 30px;
 }
