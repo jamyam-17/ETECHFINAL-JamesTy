@@ -1,2 +1,9 @@
 # ETECHFINAL-JamesTy
-PT
+Greetings, the developer for this website is James William G. Ty from STEM1 Innovation and I would like to introduce you to my website.
+
+The website is named Ty-Torial as a little pun with the use of my last name and "tutorial". The website is used for students who struggle academically. Ty-torial offers tutoring services for different grades and levels. Our goals are stated  in the website including to improve academic performance, motivate learning, and develop self-esteem.
+
+User Documentation:
+The website consists of 5 pages, the first page is the home page wherein it welcomes its users to the website with a clean carousel and concise captions. The second page is the About Us page where it gives a general description on what the business is about, its branches, its goals, and lastly the business' progress. It has simple visuals and a clean layout so the users wouldn't be overwhelmed. The third page is the services page where its users can pick up a plan depending on their chosen grade level and/or subjects. When choosing a plan, the user is required to input necessary information including email, username, password, and contact no. so they could get be verified and notified of what comes next. The Fourth page is the contacts page where the users are able to address their concerns and ask specific questions. The contacts page requires a name and contact number to avoid spam and trolls. The last page is the teachers page where the users could get a glimpse on what to expect of their tutors. It also ensures the credibility and security of the tutors chosen for Ty-Torial.
+
+Developer Documentation: With the use of the color wheel, I chose the color green and white to  give off a welcoming vibe to the website. I also used clear and clean fonts to make it readable and user-friendly. The logo of the website was made in canva and Its purpose was to make a simple logo to make it welcoming.
