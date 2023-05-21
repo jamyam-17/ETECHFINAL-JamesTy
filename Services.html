@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   <!-- This part enables us to use fonts from google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Raleway:wght@200&display=swap" rel="stylesheet">
@@ -18,7 +19,7 @@
 <!-- 1st part in connecting bootstrap -->
   </head>
 <body>
-
+ <!-- This is the modal which was hidden using css-->
     <div class= "mdloverlay">
         <div class = "signupform">
             <span> &times; </span>
@@ -43,7 +44,7 @@
                 <label for="Password">Password</label>
                 <input type = "password"/>
                 </div>
-    
+ <!-- This part of the code was used to close the modal after pressing x or sign up-->
                 <button onclick="closeModal()">Sign Up</button>
     
             </form>
@@ -71,6 +72,7 @@
 <div class="pricingtitle">
     <h1>Services</h1>
 </div>
+ <!-- I made a container dividing it into 4 equal sections using rows and columns-->
     <div class="container">
         <div class="row">
             <div class="col-md-3">
@@ -85,6 +87,7 @@
                     <li>Araling Panlipunan</li>
                     <li>MAPEH</li>
                   </ul>
+                    <!-- This button tells us to show the modal once Sign up is pressed-->
                   <button type="button" class="btn-login btn-outline-success btn-lg" onclick="showModal()">Sign me Up</button>
                   </div>
 
@@ -103,6 +106,7 @@
                         <li>Araling Panlipunan</li>
                         <li>MAPEH</li>
                       </ul>
+                        <!-- This button tells us to show the modal once Sign up is pressed-->
                       <button type="button" class="btn-login btn-success btn-lg btn-block" onclick="showModal()">Sign me Up</button>
                       </div>
                 </div>
@@ -120,9 +124,10 @@
                     <li>Research</li>
                     <li>Statistics and Probability</li>
                   </ul>
+  <!-- This button tells us to show the modal once Sign up is pressed-->
                   <button type="button" class="btn-login btn-success btn-lg"onclick="showModal()" >Sign me Up</button>
                   </div>
-                  <!-- Content for Section 2 -->
+
               </div>
             </div>
             <div class="col-md-3">
@@ -138,6 +143,7 @@
                     <li>Humanities</li>
                     <li>Business</li>
                   </ul>
+                    <!-- This button tells us to show the modal once Sign up is pressed-->
                   <button type="button" class="btn-login btn-success btn-lg" onclick="showModal()">Sign me Up</button>
                   </div>
                   
@@ -147,7 +153,10 @@
       </div>
       
 </body>
+  <!-- The first part of the script is a function to show the modal-->
+    <!-- The second part of the fucntion tells us to hide the modal-->
 <script>
+  
     function showModal(){
         document.querySelector('.mdloverlay').classList.add('showmdloverlay');
         document.querySelector('.signupform').classList.add('showsignupform');
